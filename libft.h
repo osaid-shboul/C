@@ -23,5 +23,9 @@ void *ft_memchr(const void *ptr, int value, size_t n);
 int ft_memcmp(const void *p1, const void *p2, size_t n);
 char *ft_strnstr(const char *src, const char *sea, size_t n);
 int ft_atoi(const char *str);
+void *ft_calloc(size_t e, size_t size);
+char *ft_strdup(const char *s);
+char *ft_substr(char const *s, unsigned int start, size_t len);
+char *ft_strjoin(char const *str1, char const *str2);
 
 #endif
